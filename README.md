@@ -1,6 +1,6 @@
 ## Vincent's Portfolio Website
 Hi there! 👋 This is my portfolio website.\
-You can visit it at: vchi-dev.github.io
+You can visit it at: <a href="https://vchi-dev.github.io/">vchi-dev.github.io</a>
 <br />
 
 This website was built from scratch with my sense of design. Feel free to leave feedback or suggestions on my email.
