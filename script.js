@@ -22,7 +22,7 @@ $(document).ready(function() {
     });
     
     // Dark and Light theme
-    var dark_light = document.getElementById("dark-mode").onclick = function() {
+    var darktheme = document.getElementById("dark-mode").onclick = function() {
         // Makes all the colors change.
         document.body.classList.toggle("dark-theme");
 
