@@ -1,5 +1,6 @@
-// When scrolling, bring the navbar in and out of view.
 $(document).ready(function() {
+    // When scrolling, bring the navbar in and out of view.
+    // Add blur to navbar.
     $(window).scroll(function() {
         if (this.scrollY > 25) {
             $('.navbar').addClass("sticky");
@@ -10,6 +11,7 @@ $(document).ready(function() {
             $('.navbar').removeClass("blur");
         }
     })
+
     // Typing animation
     var typed = new Typed(".type", {
         strings: ["Developer", "Software Engineer", "Designer", "Student", "Programmer", "Hacker", "Gamer"],
@@ -18,6 +20,7 @@ $(document).ready(function() {
         loop: true,
         shuffle: true
     });
+    
     // Dark and Light theme
     var dark_light = document.getElementById("dark-mode").onclick = function() {
         // Makes all the colors change.
